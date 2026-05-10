@@ -40,46 +40,5 @@ import numpy as np
 
 # st.write(dic)
 
-df = pd.read_csv("C:/users/ShadZz/Downloads/cancer.csv")
-
-# st.write(df)
-
-# st.dataframe(df)
-
-#st.table(df)
-
-data = {
-    "user_id": 12345,
-    "user_info": {
-        "name": "Alice",
-        "email": "alice@example.com",
-        "age": 29
-    },
-    "purchases": [
-        {
-            "item_id": "A001",
-            "item_name": "Laptop",
-            "price": 1200.99,
-            "quantity": 1
-        },
-        {
-            "item_id": "B002",
-            "item_name": "Mouse",
-            "price": 25.50,
-            "quantity": 2
-        }
-    ],
-    "timestamp": "2024-08-11T15:30:00Z"
-}
-
-#st.json(data,expanded=False)
-
-st.metric("TCS STOCK",value=897,delta="12.5")
-
-st.metric("TCS STOCK",value=897,delta="-12.5")
-
-st.metric("TCS STOCK",value=897,delta="12.5",delta_color="off")
-
-
 
 
