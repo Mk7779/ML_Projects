@@ -7,6 +7,7 @@ import numpy as np
 st.title('HOME')
 
 r = st.sidebar.radio('Navigation',['Home','Opration'])
+sb = st.selectbox('COLORS',["R",'Y','B','G'],index=2)
 
 data = {
 'num':[x for x in range(1,11)],
