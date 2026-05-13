@@ -7,7 +7,7 @@ import numpy as np
 st.title('HOME')
 
 r = st.sidebar.radio('Navigation',['Home','Opration'])
-r = st.selectbox('COLORS',["R",'Y','B','G'],index=2)
+r = st.selectbox('COLORS',["R",'Y','B','Green'],index=2)
 
 
 if r =='Home':
