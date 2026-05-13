@@ -18,5 +18,6 @@ if r =='Home':
     st.warning('warning')
     st.info('info')
     st.exception('exception')
-
+if r=="Operation":
+    st.write("This is Option")
 
